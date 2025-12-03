@@ -1,0 +1,27 @@
+#contato{
+    background-color: rgb(22, 22, 22);
+    text-align: center;
+    margin-bottom: 30px;
+    color: aliceblue;
+    padding: 30px;
+}
+
+#contato>h2{
+    margin-top: -15px;
+    margin-bottom: 30px;
+}
+
+#instagram{
+    border: solid 2px transparent;
+    border-radius: 10px;
+    border-image: linear-gradient(to right, rgb(236, 221, 86), orange 10%, rgb(214, 52, 79) 50%, rgb(209, 31, 185) 90%, darkorchid) 1;
+    padding: 7px 7px 10px 7px;
+    cursor: pointer;
+    font-weight: 600;
+    transition-duration: 0.5s;
+}
+
+#instagram:hover{
+    font-size: 18px;
+    border-image: linear-gradient(to left, rgb(236, 221, 86), orange 10%, rgb(214, 52, 79) 50%, rgb(209, 31, 185) 90%, darkorchid) 1;
+}
